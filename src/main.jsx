@@ -10,6 +10,7 @@ import {ClerkProvider} from '@clerk/clerk-react'
 import { Edit } from 'lucide-react'
 import EditResume from './Dashboard/resume/[resumeId]/edit'
 import ViewResume from './my-resume/[resumeId]/view'
+import Dashboard from './dashboard';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 const router= createBrowserRouter([
