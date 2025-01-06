@@ -23,6 +23,16 @@
   margin: 0mm;
 }
 
+ul {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 20px;    /* Add indentation */
+}
+
+li {
+  margin-bottom: 5px;    /* Add spacing between items */
+}
+
+
 
 .rsw-ce ul {
   list-style: disc;
